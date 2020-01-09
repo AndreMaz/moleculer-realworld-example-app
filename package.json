@@ -40,7 +40,7 @@
     "url": "git+https://github.com/ice-services/moleculer-realworld-example-app.git"
   },
   "engines": {
-    "node": ">= 6.x.x"
+    "node": ">= 10.x.x"
   },
   "jest": {
     "testEnvironment": "node",
