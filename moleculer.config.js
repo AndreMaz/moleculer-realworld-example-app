@@ -13,5 +13,9 @@ module.exports = {
 
 	cacher: "memory",
 
-	metrics: true
+	metrics: true,
+
+	errorHandler(err, info) {
+		this.logger.error("ServiceBroker Error Handler:", err);
+	}
 };
