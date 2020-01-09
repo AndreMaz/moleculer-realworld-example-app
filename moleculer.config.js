@@ -17,5 +17,6 @@ module.exports = {
 
 	errorHandler(err, info) {
 		this.logger.error("ServiceBroker Error Handler:", err);
+		throw err
 	}
 };
